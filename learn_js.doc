@@ -227,3 +227,36 @@ return(str[0].toUpperCase());
    }
    return sum;
  }
+ 
+ let camelize = (str) => {
+  let result = str.split("-");
+  return result.reduce((total, item, index) => {
+    index > 0
+      ? (total += item[0].toUpperCase() + item.slice(1))
+      : (total += item);
+    console.log(total);
+    return total;
+  }, []);
+};
+
+let filterRange = (arr, a, b) => {
+  return arr.sort().filter((item) => a <= item && b >= item);
+};
+
+let filterRangeInPlace = (arr, a, b) => {
+  return arr.filter((item) => {
+    return item < a || item > b ? delete item : item;
+  });
+};
+
+//Сортировать в порядке по убыванию
+arr.sort().reverse()
+
+let copySorted = (arr) => {
+  let newArr = arr.slice(0).sort();
+  return newArr;
+};
+
+
+
+
