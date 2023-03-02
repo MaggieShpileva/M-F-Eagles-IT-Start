@@ -258,5 +258,49 @@ let copySorted = (arr) => {
 };
 
 
+let names = users.map(item => item.name)
 
+let shuffle = (arr) => {
+  return arr.sort(() => Math.random() - 0.5);
+};
+
+let getAverageAge = (arr) => {
+  return arr.reduce((sum, item) => (sum += +item.age), 0);
+};
+
+let unique = (strings) => {
+  return Array.from(new Set(strings));
+};
+
+let groupById = (users) => {
+  let obj = {};
+  users.map((item) => {
+    obj[item.id] = item;
+  });
+  return obj;
+};
+
+let sumSalaries = (salaries) => {
+  return Object.values(salaries).reduce((sum, item) => (sum += item), 0);
+};
+
+let sumSalaries = (salaries) => {
+  let sum = 0;
+  for (let item of Object.values(salaries)) {
+    sum += item;
+  }
+  return sum;
+};
+
+let count = (user) => {
+  return Object.values(user).length;
+};
+
+let {
+  name: name,
+  years: age,
+  isAdmin = user.isAdmin ? user.isAdmin : false,
+} = user;
+
+JSON.parse(JSON.stringify(user));
 
