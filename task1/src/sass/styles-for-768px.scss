@@ -1,0 +1,179 @@
+@media screen and (max-width: 768px) {
+  header {
+    .top-line-menu {
+      width: 768px;
+    }
+    .main-line-menu {
+      width: 768px;
+      .container {
+        width: 768px;
+        padding: 10px 25px 0 25px;
+        .contacts {
+          width: 320px;
+        }
+      }
+    }
+  }
+  .second-line__main-menu {
+    width: 768px;
+  }
+  .main-info {
+    width: 768px;
+    margin: 0 auto;
+    position: relative;
+    height: 480px;
+
+    #main-foto {
+      width: 768px;
+      height: 480px;
+    }
+    .main-info-title {
+      width: 400px;
+      top: 122px;
+      left: 50px;
+    }
+  }
+  .section-offer {
+    width: 768px;
+    .container {
+      padding-top: 60px;
+      .offer-title {
+        width: 730px;
+        margin-left: 15px;
+      }
+      .products-div {
+        width: 700px;
+        margin-left: 8px;
+        .product-cart {
+          width: 170px;
+          height: 300px;
+          margin: 0 8px 50px 8px;
+          img {
+            height: 120px;
+            width: 90px;
+          }
+          .p-text {
+            width: 140px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+      .connection-with-the-company {
+        width: 768px;
+        padding: 0 15px 0 20px;
+        box-sizing: border-box;
+        .mail-div,
+        .adress-company {
+          width: 340px;
+          padding: 30px 25px 36px 20px;
+          .h5-title-white {
+            margin-top: 10px;
+          }
+        }
+        .mail-div {
+          .h5-title-white {
+            width: 170px;
+          }
+          .mail-div-input {
+            margin-top: -5px;
+            width: 140px;
+            padding: 9px 10px 9px 15px;
+          }
+          #mail-img {
+            right: 15px;
+            width: 120px;
+          }
+        }
+        .adress-company {
+          h5 {
+            width: 141px;
+          }
+          button {
+            height: 35px;
+            width: 140px;
+            padding-top: 8px;
+            padding: 10px 10px 13px 10px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 768px;
+    .footer-main-line {
+      margin-top: 35px;
+      margin-bottom: 40px;
+      .container {
+        width: 750px;
+        .icons {
+          img {
+            width: 30px;
+            height: 30px;
+            margin-right: 5px;
+          }
+          #fb-icon {
+            margin-right: 8px;
+          }
+        }
+        .adress {
+          margin-left: 40px;
+        }
+        .phone {
+          margin-left: 30px;
+          .button-call {
+          }
+        }
+      }
+    }
+    .footer-sum-info {
+      width: 768px;
+      margin: 0 auto;
+      .container {
+        width: 740px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .p-text {
+    font-size: 12px;
+  }
+  .p-title {
+    font-size: 13px;
+  }
+  .h3-title {
+    font-size: 22px;
+  }
+  .h1-title-white {
+    font-size: 38px;
+  }
+  .h4-title-white {
+    font-size: 16px;
+  }
+  .h5-title-white {
+    font-size: 12px;
+  }
+  .p-price {
+    font-size: 19px;
+  }
+  .button-more {
+    font-size: 10px;
+    line-height: 0;
+    padding: 10px 26px 10px 27px;
+  }
+  button {
+    width: 140px;
+    height: 30px;
+  }
+  .button-call {
+    padding: 8px 13px 10px 12px;
+    font-size: 12px;
+  }
+  .p-text-description {
+    font-size: 10px;
+  }
+  .logo-title {
+    font-size: 34px;
+  }
+}

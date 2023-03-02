@@ -1,4 +1,7 @@
 import "./sass/styles.scss";
+import "./sass/styles-for-1024px.scss";
+import "./sass/styles-for-768px.scss";
+import "./sass/styles-for-320px.scss";
 import imgBG from "./assets/images/bg-title-img.png";
 import imgChair from "./assets/images/chair.png";
 import imgMail from "./assets/images/envelope.png";

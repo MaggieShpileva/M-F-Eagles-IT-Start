@@ -1,0 +1,233 @@
+@media screen and (max-width: 320px) {
+  body {
+    width: 320px;
+  }
+  header {
+    .top-line-menu {
+      width: 320px;
+      .title-menu {
+        width: 290px;
+        height: 35px;
+        * {
+          margin: 10px 3px;
+        }
+      }
+    }
+    .main-line-menu {
+      width: 320px;
+      height: 70px;
+      .container {
+        width: 320px;
+        flex-direction: column;
+        padding: 10px 25px 0 25px;
+        .logo-div {
+          display: flex;
+          width: 290px;
+          align-items: center;
+          img {
+            width: 50px;
+            height: 50px;
+          }
+
+          h1 {
+            font-size: 24px;
+            margin-left: 20px;
+          }
+        }
+        .contacts {
+          display: none;
+        }
+      }
+    }
+  }
+  .second-line__main-menu {
+    width: 320px;
+    .line-menu {
+      width: 320px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left: 10px;
+
+      * {
+        margin: 5px 10px;
+      }
+    }
+  }
+  .main-info {
+    margin-top: 10px;
+    width: 320px;
+    height: 240px;
+    #main-foto {
+      width: 320px;
+      height: 240px;
+    }
+    .main-info-title {
+      width: 320px;
+      height: 119px;
+      top: 40px;
+
+      left: 10px;
+
+      p {
+        margin: 0;
+        width: 200px;
+      }
+    }
+  }
+  .section-offer {
+    width: 320px;
+    .container {
+      padding-top: 25px;
+      padding-left: 0px;
+      .products-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        .product-cart {
+          width: 200px;
+          height: 300px;
+          img {
+            width: 100px;
+            height: 130px;
+          }
+          .p-price {
+            margin-top: 10px;
+          }
+        }
+      }
+      .connection-with-the-company {
+        margin: 0;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .mail-div,
+        .adress-company {
+          width: 280px;
+          height: 212px;
+          padding: 17px 5px 20px 14px;
+          margin-bottom: 20px;
+
+          h5 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 90px;
+          }
+        }
+        .mail-div {
+          h5 {
+            width: 130px;
+          }
+          .mail-div-input {
+            width: 124px;
+            height: 25px;
+            padding: 9px 14px 9px 15px;
+            font-size: 10px;
+          }
+        }
+        .adress-company {
+          h5 {
+            width: 121px;
+          }
+          button {
+            margin-top: 1px;
+            height: 25px;
+            width: 120px;
+            padding: 0 0 5px 0;
+            padding-top: 5px;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    width: 320px;
+    .footer-main-line {
+      margin-top: 15px;
+      .container {
+        width: 320px;
+        flex-direction: column;
+        .icons {
+          margin-top: 3px;
+          display: flex;
+          align-items: center;
+          margin-left: 10px;
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+          }
+          #fb-icon {
+            margin-right: 9px;
+          }
+        }
+        .adress {
+          margin-top: 25px;
+          margin-left: 10px;
+        }
+        .phone {
+          position: relative;
+          top: -60px;
+          margin-left: 10px;
+        }
+      }
+    }
+    .footer-sum-info {
+      height: 54px;
+      padding-top: 1px;
+      width: 320px;
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        p {
+          margin-top: 2px;
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+
+  .p-text {
+    font-size: 9px;
+  }
+  .p-title {
+    font-size: 12px;
+  }
+  .h3-title {
+    font-size: 20px;
+  }
+  .h1-title-white {
+    font-size: 28px;
+  }
+  .h4-title-white {
+    font-size: 12px;
+  }
+  .h5-title-white {
+    font-size: 10px;
+  }
+  .p-price {
+    font-size: 17px;
+  }
+  .button-more {
+    font-size: 10px;
+    line-height: 0;
+  }
+  .button-call {
+    padding: 8px 13px 10px 12px;
+    font-size: 12px;
+  }
+  button {
+    width: 140px;
+    height: 30px;
+    border-radius: 40px;
+  }
+  .logo-title {
+    font-size: 34px;
+  }
+  .p-text-description {
+    font-size: 8px;
+  }
+}

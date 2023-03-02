@@ -1,0 +1,116 @@
+@media screen and (max-width: 1024px) {
+  header {
+    .top-line-menu {
+      width: 1024px;
+    }
+    .main-line-menu {
+      width: 1024px;
+      .container {
+        width: 958px;
+      }
+    }
+  }
+  .second-line__main-menu {
+    width: 1024px;
+  }
+  .main-info {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    height: 604px;
+
+    #main-foto {
+      width: 1024px;
+    }
+    .main-info-title {
+      width: 400px;
+      top: 192px;
+      left: 175px;
+    }
+  }
+  .section-offer {
+    width: 1024px;
+    .container {
+      padding-top: 80px;
+      .offer-title {
+        width: 990px;
+        margin-left: 15px;
+      }
+      .products-div {
+        width: 1000px;
+        margin-left: 8px;
+        .product-cart {
+          width: 235px;
+          height: 330px;
+          margin: 0 8px 50px 8px;
+          img {
+            height: 150px;
+            width: 110px;
+          }
+          p {
+            margin-bottom: 8px;
+          }
+        }
+      }
+      .connection-with-the-company {
+        width: 1024px;
+        padding: 0 15px 0 20px;
+        box-sizing: border-box;
+        .mail-div,
+        .adress-company {
+          width: 480px;
+        }
+        .mail-div {
+          .mail-div-input {
+            margin-top: -5px;
+          }
+          #mail-img {
+            right: 15px;
+          }
+        }
+        .adress-company {
+          h5 {
+            width: 141px;
+          }
+          button {
+            margin-top: 1px;
+            height: 35px;
+            width: 170px;
+            padding-top: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 1024px;
+    .footer-main-line {
+      margin-top: 35px;
+      margin-bottom: 40px;
+      .container {
+        width: 986px;
+        .icons {
+          img {
+            width: 40px;
+            height: 40px;
+            margin-right: 12px;
+          }
+        }
+        .adress {
+          margin-left: 100px;
+        }
+        .phone {
+          margin-left: 80px;
+        }
+      }
+    }
+    .footer-sum-info {
+      width: 1024px;
+      margin: 0 auto;
+      .container {
+        width: 978px;
+      }
+    }
+  }
+}
