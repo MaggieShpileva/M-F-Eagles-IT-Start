@@ -234,40 +234,6 @@ header {
       }
     }
   }
-  @media screen and (max-width: 320px) {
-    .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: left;
-      align-items: flex-start;
-      margin-top: 24px;
-
-      .logo {
-        display: flex;
-        width: 101px;
-        align-items: center;
-        justify-content: space-between;
-        margin-left: 10px;
-      }
-      .header-menu {
-        width: 300px;
-        margin-left: 10px;
-        * {
-          margin-right: 10px;
-        }
-      }
-      .header-icons {
-        width: 90px;
-        margin-top: 6px;
-        position: relative;
-        top: -70px;
-        left: 215px;
-        img {
-          height: 12px;
-        }
-      }
-    }
-  }
 }
 .banner {
   .container {
@@ -387,22 +353,7 @@ header {
     }
   }
 }
-@media screen and (max-width: 320px) {
-  .banner {
-    .container {
-      .banner-info {
-        top: 0;
-        left: 10px;
-        .base-button {
-          margin-top: 0;
-        }
-      }
-      .banner-offer {
-        display: none;
-      }
-    }
-  }
-}
+
 .popular-models {
   margin-top: 18px;
   margin-bottom: 89px;
@@ -474,25 +425,17 @@ header {
           left: -15px;
           top: -9px;
           box-sizing: border-box;
-          $border: 1px;
-          border-radius: 50%;
-          color: #fff;
-          background: rgb(255, 255, 255);
-          background-clip: padding-box;
-          border: solid $border transparent;
 
           &:before {
             content: "";
             position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: -1;
-            margin: -$border;
-            border-radius: inherit;
-            background: linear-gradient(to left, #e2d0c4, #1b1a1700);
-            transform: translate(90deg);
+            width: inherit;
+            height: inherit;
+            top: 2px;
+            right: -10px;
+            z-index: 100;
+            background-size: cover;
+            background-image: url("../assets/images/bg-for-watch.png");
           }
         }
         .more-details {
@@ -514,37 +457,7 @@ header {
     }
   }
 }
-@media screen and (max-width: 320px) {
-  .popular-models {
-    .container {
-      .models-title {
-        .see-all {
-          top: 1550px;
-          left: 90px;
-          &::after {
-            top: 45px;
-            bottom: 0;
-          }
-        }
-      }
-      .models {
-        flex-direction: column;
-        align-items: center;
-        width: 310px;
-        .watch-model {
-          width: 300px;
-          .div-img {
-            width: 300px;
-            left: -50px;
-            img {
-              width: 280px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+
 .description {
   height: 519px;
 
@@ -631,12 +544,6 @@ header {
   }
 }
 
-@media screen and (max-width: 320px) {
-  .description {
-    display: none;
-  }
-}
-
 .news {
   .container {
     padding: 81px 109px 90px 97px;
@@ -685,37 +592,7 @@ header {
     }
   }
 }
-@media screen and (max-width: 320px) {
-  .news {
-    margin-top: 120px;
-    border-top: 1px solid $base-color-light-grey;
-    margin-bottom: 40px;
-    .container {
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
-      .text {
-        margin-top: 20px;
-        width: 300px;
-        .p-big-roboto {
-          width: 300px;
-        }
-        .icons {
-          position: relative;
-          top: -90px;
-        }
-      }
-      .images {
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        img {
-          width: 280px;
-        }
-      }
-    }
-  }
-}
+
 footer {
   .container {
     height: 275px;
@@ -751,52 +628,5 @@ footer {
         }
       }
     }
-  }
-}
-@media screen and (max-width: 320px) {
-  footer {
-    .container {
-      width: 320px;
-      padding: 0;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      .info {
-        width: 300px;
-        height: 60px;
-        margin-left: 10px;
-      }
-      .about-company,
-      .for-buyers,
-      .pay-and-delivery {
-        width: 90px;
-        margin: 7px;
-      }
-    }
-  }
-}
-@media screen and (max-width: 320px) {
-  .container {
-    width: 320px;
-  }
-  .p-text {
-    font-size: 10px;
-  }
-  .p-description {
-    font-size: 10px;
-  }
-  .p-big-roboto {
-    font-size: 12px;
-  }
-  .h2-playfair {
-    font-size: 26px;
-  }
-  .p-for-footer-roboto {
-    font-size: 8px;
-  }
-  .h1-for-footer-roboto {
-    font-size: 10px;
-  }
-  .h4-playfair {
-    font-size: 12px;
   }
 }

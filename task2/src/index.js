@@ -1,4 +1,6 @@
 import "./sass/styles.scss";
+import "./sass/styles-for-320px.scss";
+import "./sass/styles-for-768px.scss";
 import "./assets/images/search.svg";
 import "./assets/images/like.svg";
 import "./assets/images/basket.svg";
